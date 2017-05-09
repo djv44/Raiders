@@ -1,14 +1,14 @@
-import unittest
+import unittest #imports the unit test
 
-import raiders
+import raiders #imports the raiders.py file we created
 
 
-class FlaskrTestCase(unittest.TestCase):
+class FlaskrTestCase(unittest.TestCase): #tests our functions
 
     def setUp(self):
-        self.app = raiders.app.test_client()
+        self.app = raiders.app.test_client() #raiders app we are making
 
-    def tearDown(self):
+    def tearDown(self): 
         pass
 
     def test_home_page(self): #tests homepage we are building

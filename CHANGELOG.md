@@ -8,5 +8,8 @@ added raider.py
 added raider_test.py
 added run_tests
 added docker-compose.test.yml
+linked docker and github
+ran docker tests and debugged
+got a successful docker build
 
-this willbe the stepping point for project
+this will be the stepping point for project
