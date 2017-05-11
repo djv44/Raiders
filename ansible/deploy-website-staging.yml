@@ -1,0 +1,14 @@
+---
+# The production version of docker-cloud-test should be the image that includes the website with
+# your topic subpage.  This version of the website should be available on port 8081 of your server.
+- name: Deploy the staging version of your website based on the newest tag of your docker-cloud-test image
+  hosts: localhost
+  become: true
+  vars:
+    raiders_environment: staging
+    raiders_image_version: 0.0.0
+    raiders_host_port: 8081
+    raiders_container_port: 8080
+  roles:
+    - raiders
+  

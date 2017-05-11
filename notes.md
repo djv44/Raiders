@@ -18,4 +18,6 @@ this is a place for notes for this project not for the CHANGELOG
 		4. intergrations and services
 		5. add docker
 		6. follow directions
-8. once linked ran tests to find bugs 
+8. once linked ran tests to find bugs
+9. Download repository from previous project to have ansible playbook
+10. Went through and starting working on my new project Raiders. 
