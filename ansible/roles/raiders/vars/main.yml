@@ -1,0 +1,5 @@
+---
+# Here we define variables in a key: value setting
+# that will be used in the raiders role.
+raiders_image: djv44/raiders
+raiders_command: python3 raiders.py
