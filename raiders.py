@@ -11,6 +11,7 @@ def main():#defines main
 	return render_template('main.html') #calls main template
 
 @app.route('/my-topic')
+def page(): #defines page
 	return render_template('topic.html')
 
 
