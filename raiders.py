@@ -2,7 +2,8 @@ from flask import Flask #imports Flask
 app = Flask(__name__) #imports Flask app with name we specify
 
 @app.route('/')
-def home(): #defining the home function
+#def home(): #defining the home function
+def hello_world():
 	return "Raiders Website" #when if works will return this
 #this is where we will build other pages later on
 if __name__ == "__main__":
