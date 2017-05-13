@@ -7,7 +7,7 @@
   become: true
   vars:
     raiders_environment: production
-    raiders_image_version: 0.0.0
+    raiders_image_version: latest
     raiders_host_port: 8080
     raiders_container_port: 8080
   roles:
