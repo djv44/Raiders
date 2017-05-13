@@ -8,10 +8,10 @@ def home(): #defining the home function
 
 @app.route('/main')
 def main():#defines main
-	return render_template('main.html')#calls main template
+	return render_template('main.html') #calls main template
 
 @app.route('/my-topic')
-	return render_template('topic-html')
+	return render_template('topic.html')
 
 
 if __name__ == "__main__":

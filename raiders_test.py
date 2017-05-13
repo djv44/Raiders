@@ -28,5 +28,6 @@ class FlaskrTestCase(unittest.TestCase): #tests our functions
     def test_topic_page(self):
         rv = self.app.get('/my-topic') #fetches this
         assert b'Raiders' in rv.data # looks for this
+
 if __name__ == '__main__':
     unittest.main() #unit test for main
