@@ -23,10 +23,10 @@ class FlaskrTestCase(unittest.TestCase): #tests our functions
 
     def test_main_page(self): #tests main page
         rv = self.app.get('/main')#fetchs main
-        assert b'topic' in rv.data#looks for this this phrase
+        assert b'topic' in rv.data #looks for this this phrase
 
     def test_topic_page(self):
         rv = self.app.get('/my-topic') #fetches this
-        assert b 'Raiders' in rv.data# looks for this
+        assert b'Raiders' in rv.data # looks for this
 if __name__ == '__main__':
     unittest.main() #unit test for main
