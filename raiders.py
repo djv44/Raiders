@@ -1,9 +1,15 @@
 from flask import Flask, render_template #imports Flask and template
 app = Flask(__name__) #imports Flask app with name we specify
 
+
 @app.route('/')
 def home(): #defining the home function
 	return render_template('index.html') #when if works will return this
+
+#def home(): #defining the home function
+#def hello_world():
+	#return "Raiders Website" #when if works will return this
+
 #this is where we will build other pages later on
 
 @app.route('/main')
