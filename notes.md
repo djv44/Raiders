@@ -21,3 +21,9 @@ this is a place for notes for this project not for the CHANGELOG
 8. once linked ran tests to find bugs
 9. Download repository from previous project to have ansible playbook
 10. Went through and starting working on my new project Raiders. 
+11. created new branch called working, which has a working docker image
+12. Now we will begin working on getting it up and running in AWS
+13. command to get into AWS instance is
+	a. ssh -i C:/Users/danie/.ssh/dbeitel-xxxxxxxxxx.key dbeitel@xx.xxx.xxx.xx
+	b. the first xxxxxxx area if for my private ket which
+		is stored in that file location and the second is my instance IP address.
